@@ -1,4 +1,4 @@
-//Input types in java using scanner class
+//Input types in java using scanner class with all type included
 
 import java.util.*;
 
