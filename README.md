@@ -6,11 +6,9 @@ Welcome to my Java Data Structures and Algorithms (DSA) Journey repository! This
 
 1. [Overview](#overview)
 2. [Daily Progress](#daily-progress)
-3. [Code Examples](#code-examples)
-4. [How to Contribute](#how-to-contribute)
-5. [Resources](#resources)
-6. [Connect with Me](#connect-with-me)
-7. [License](#license)
+3. [How to Contribute](#how-to-contribute)
+4. [Resources](#resources)
+5. [Connect with Me](#connect-with-me)
 
 ## Overview
 
