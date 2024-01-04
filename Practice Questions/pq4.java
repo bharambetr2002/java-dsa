@@ -9,7 +9,7 @@ public class pq4{
         int exp2 = (x * (y / x));
 
         System.out.print(exp1);
-        System.out.println(exp2);
+        System.out.print(exp2);
 
     }
 }
