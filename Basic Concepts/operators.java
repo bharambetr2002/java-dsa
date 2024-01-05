@@ -31,19 +31,39 @@ public class operators {
         int f = b--;
         System.out.println("Uniary (--) =" + f);
 
-        // relational operators 
+        /* relational operators 
+        ==      equal to
+        !=      not equal to
+        >       greater than
+        >=      greater than or equal to
+        <       less than
+        <=      less than or equal to */
 
         int A = 10;
         int B = 10;
         int C = 20;
         int D = 22;
+        
         System.out.println( A == B );
         System.out.println( A == C );
         System.out.println( A != B );
         System.out.println( A != C );      
         System.out.println( A > D );
         System.out.println( A < C );  
-        
-        // >= , <=
+         
+        System.out.println( A >= C );
+        System.out.println( A <= C );
+
+        /* Logical Operators 
+        && Conditional-AND
+        || Conditional-OR
+        ! Logical NOT */
+
+        System.out.println( ( A >= C ) && ( A <= C ) ); //( False && True )
+        System.out.println( ( A <= C ) && ( C <= D ) ); //( True && True )
+
+        System.out.println( ( A >= C ) || ( A <= C ) ); //( False || True )
+        System.out.println( ( A >= C ) || !( A <= C ) ); //( False || !(True) )
+
     }
 }
