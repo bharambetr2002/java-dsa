@@ -29,6 +29,9 @@ public class pq3{
     System.out.print("Total Bill = " + bill);
 
     Float gst = (bill*18)/100; 
-    System.out.println("Total Bill with GST: "+ gst);
+    System.out.print("Total Bill with GST: "+ gst);
+
+    src.close();
+
     }
 }

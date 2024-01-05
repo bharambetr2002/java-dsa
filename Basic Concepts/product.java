@@ -11,5 +11,7 @@ public class product {
         int product = a * b;
 
         System.out.println(product);
+
+        scn.close();
     }
 }

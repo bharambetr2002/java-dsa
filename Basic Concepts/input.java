@@ -33,6 +33,8 @@ public class input {
         long l = scn.nextLong(); // nextLong can be used to take input of a single long
         System.out.println(l);
 
+        scn.close();
+
     }
 }
 

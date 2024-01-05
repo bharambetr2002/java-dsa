@@ -9,5 +9,7 @@ public class circlearea {
         float area = 3.14f * r * r ;
 
         System.out.println(area);
+
+        scn.close();
     }
 }

@@ -18,5 +18,7 @@ public class pq1{
 
         System.out.print("Average:");
         System.out.println( avg );
+
+        scn.close();
     }
 }

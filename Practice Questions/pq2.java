@@ -15,5 +15,7 @@ public class pq2{
         System.out.print("Area of the Square");   
         System.out.print(area);
 
+        src.close();
+
     }
 }
