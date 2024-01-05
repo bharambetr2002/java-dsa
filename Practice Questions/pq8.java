@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class circlearea {
+public class pq8 {
     public static void main(String[] arg){
         Scanner scn = new Scanner(System.in);
         float r = scn.nextFloat();

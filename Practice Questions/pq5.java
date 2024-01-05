@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class sum2{
+public class pq5{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int a = scn.nextInt();

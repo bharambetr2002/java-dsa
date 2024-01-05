@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class product {
+public class pq7 {
     public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
         int a = scn.nextInt();
