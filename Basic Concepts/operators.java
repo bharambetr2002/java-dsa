@@ -65,5 +65,12 @@ public class operators {
         System.out.println( ( A >= C ) || ( A <= C ) ); //( False || True )
         System.out.println( ( A >= C ) || !( A <= C ) ); //( False || !(True) )
 
+        // ternary operator
+        //variable = condition? statement1 : statement2;
+
+        int number = 4;
+        
+        int value = ((number%2)==0) ? 0 : 1; //0:true:even 1:false:odd
+        System.out.println(value);
     }
 }

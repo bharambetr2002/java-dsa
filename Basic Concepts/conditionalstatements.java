@@ -34,6 +34,11 @@ public class conditionalstatements {
         System.out.println("You are kid");
         }
     }
+
+// Switch Statements
+
+    
+
 }
    
 
