@@ -25,5 +25,17 @@ public class loops {
  for(count = 0 ; count<=5; count++){
         System.err.print("Hey Tanmay !!  ");
         }
+
+/* Do While loop
+do{
+  task
+}while{condition};
+ */
+
+ int counts = 1;
+ do{
+    System.out.println("Helo world");
+    counts++;
+ }while(counts<=10);
     }
 }
