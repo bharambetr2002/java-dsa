@@ -23,8 +23,7 @@ public class loops {
  */
 
  for(count = 0 ; count<=5; count++){
-    System.err.print("Hey Tanmay !!  ");
- }
-
-
-}}
+        System.err.print("Hey Tanmay !!  ");
+        }
+    }
+}
