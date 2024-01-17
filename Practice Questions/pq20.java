@@ -5,11 +5,17 @@ import java.util.Scanner;
 public class pq20 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+        System.out.print("Input the year : ");
         int year = scn.nextInt();
-        if(year%4==0){
-            System.out.println("This is a lear year");
-        }else{
-            System.out.println("This is not a leap year");
+        
+        boolean x = (year %  4) == 0;
+        boolean y = (year % 100) !=0;
+        boolean z = ((year % 100 == 0) && (year % 400 == 0));
+
+        if (x && (y || z)){
+            System.out.println(year + " is a leap year");
+        }else {
+            System.out.println(year + " is not a leap year"); 
         }
 
         scn.close();
