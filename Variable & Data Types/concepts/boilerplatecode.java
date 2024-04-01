@@ -3,6 +3,6 @@
 
 public class boilerplatecode {
     public static void main(String[] args) {
-        //main functon is always required for java code to compile
+        // main functon is always required for java code to compile
     }
 }

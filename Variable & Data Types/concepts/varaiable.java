@@ -19,17 +19,17 @@ public class varaiable {
 
         // understanding data types
 
-        byte c = 8; // size = 256 
+        byte c = 8; // size = 256
         System.err.println(c);
         char ch = 'A'; // single character
         System.out.println(ch);
-        boolean var = true; // to check condition only ture or false 
+        boolean var = true; // to check condition only ture or false
         System.out.println(var);
         float price = 10.345f;
         System.out.println(price);
         int number = 25; // to store whole value
-        //long 
-        //double 
+        // long
+        // double
         System.out.println(number);
     }
 }
