@@ -2,7 +2,7 @@
 
  Welcome to my Java Data Structures and Algorithms (DSA) Journey repository! This repository documents my daily progress as I learn and implement DSA concepts using Java. Join me on this exciting coding adventure, and let's grow together!
 
-My Total DSA Journey Time : [![wakatime](https://wakatime.com/badge/github/bharambetr2002/java-dsa.svg)](https://wakatime.com/badge/github/bharambetr2002/java-dsa)
+My Total DSA Journey Time : [![wakatime](https://wakatime.com/badge/user/018bafed-988f-4a8f-9158-c0465ae00d92/project/018cd8bf-7009-4ae9-b5f8-9e07035adc94.svg?style=social)](https://wakatime.com/badge/user/018bafed-988f-4a8f-9158-c0465ae00d92/project/018cd8bf-7009-4ae9-b5f8-9e07035adc94)
  ## Table of Contents
 
  1. [Overview](#overview)
