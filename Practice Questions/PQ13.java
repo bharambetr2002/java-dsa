@@ -1,14 +1,12 @@
-//Reverse the given number
-
 public class PQ13 {
+    // average of 3 numbers using methods
+
+    public static int average(int a, int b, int c) {
+        int average = (a + b + c) / 3;
+        return average;
+    }
+
     public static void main(String[] args) {
-        int a = 29092002;
-        int reverse = 0;
-        while(a>0){
-            int lastdigit = a%10;
-            reverse = (reverse*10)+lastdigit;
-            a = a/10;
-        }
-        System.out.println(reverse);
+        System.out.println(average(2, 3, 4));
     }
 }

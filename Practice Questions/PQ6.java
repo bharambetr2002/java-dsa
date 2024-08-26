@@ -1,19 +1,17 @@
-//Finish the following code so that it prints You have a fever if your temperature is above 100 and otherwise prints You don't have a fever.
-
-import java.util.Scanner;
+// print the factorial of number n
 
 public class PQ6 {
-    public static void main(String[] args) {
-
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the temperature readings : ");
-        double a = scn.nextDouble();
-        if (a > 100) {
-            System.out.println("You have a fever");
-        } else {
-            System.out.println("You don't have a fever");
+    public static int factorial(int n) {
+        int f = 1;
+        for (int i = 1; i <= n; i++) {
+            f = i * f;
         }
-        scn.close();
+        return f;
+    }
 
+    public static void main(String[] args) {
+        int n = 5;
+        int fact = factorial(n);
+        System.out.println(fact);
     }
 }

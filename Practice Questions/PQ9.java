@@ -1,12 +1,19 @@
-//print number 1 to 10 using while loop
-
 public class PQ9 {
-    public static void main(String[] args) {
-        int counter = 1 ;
-        while(counter<=10){
-            System.out.print(counter + " ");
-            counter++;
+    // check if a number is prime or not (optimised)
+
+    public static boolean isPrime(int n) {
+        if (n == 2) {
+            return true;
         }
-        System.out.println();
+
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPrime(7));
     }
 }

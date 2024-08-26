@@ -1,17 +1,27 @@
-//Print numbers from 1 to n
-
-import java.util.Scanner;
-
 public class PQ10 {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the number you want to print up too : ");
-        int a = scn.nextInt();
-        int n = 0;
-        while (n <= a) {
-            System.out.print(n + " ");
-            n++;
+    // print all primes in range
+
+    public static boolean isPrime(int n) {
+        if (n == 2) {
+            return true;
         }
-        scn.close();
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0)
+                return false;
+        }
+        return true;
+    }
+
+    public static void prime(int n) {
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        prime(160);
     }
 }

@@ -1,19 +1,20 @@
-//print sum of first n natural numbers using while loop
-
-import java.util.Scanner;
-
 public class PQ11 {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the number you want addition up too : ");
-        int a = scn.nextInt();
-        int b = 0;
-        int sum = 0;
-        while (b <= a) {
-            sum += b;
-            b++;
+    // convert binary to decimal
+
+    public static void binToDec(int binNum) {
+        int mynum = binNum;
+        int pow = 0;
+        int decNum = 0;
+        while (binNum > 0) {
+            int lastdig = binNum % 10;
+            decNum = decNum + (lastdig * (int) Math.pow(2, pow));
+            pow++;
+            binNum = binNum / 10;
         }
-        System.out.println("The sums is " + sum);
-        scn.close();
+        System.out.println("decimal of " + mynum + " = " + decNum);
+    }
+
+    public static void main(String[] args) {
+        binToDec(111);
     }
 }

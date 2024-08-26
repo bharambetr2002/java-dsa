@@ -1,21 +1,23 @@
-//Write a Java program to get a number from the user and print whether it is positive or negative.
+//find the product of a and b
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class PQ5 {
+    // public static void product(){
+    // Scanner scn = new Scanner(System.in);
+    // int a = scn.nextInt();
+    // int b = scn.nextInt();
+    // int product = a*b;
+    // System.out.println("Product is " + product);
+    // scn.close();
+    // }
+    public static int multiply(int a, int b) {
+        int product = a * b;
+        return product;
+    }
+
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the number a : ");
-        int a = scn.nextInt();
-        if(a>0){
-            System.out.println("The number you enetered is Postive");
-            
-        }else if(a==0){
-            System.out.println("The number you enetered is Zero");
-        }
-        else{
-            System.out.println("The number you enetered is Negative");
-        }
-        scn.close();
+        int prod = multiply(20, 20);
+        System.out.println(prod);
     }
 }
