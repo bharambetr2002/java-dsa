@@ -7,6 +7,7 @@ public class PQ14 {
         }
         return true;
     }
+
     public static void main(String[] args) {
         System.out.println(isEven(6));
     }

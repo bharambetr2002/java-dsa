@@ -11,8 +11,8 @@ public class PQ1 {
         long a = scn.nextInt();
         long sum = 0;
         long b = 0;
-        while (b<=a) {
-            sum = sum+b;
+        while (b <= a) {
+            sum = sum + b;
             b++;
         }
         System.out.println(sum);
