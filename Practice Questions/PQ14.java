@@ -1,8 +1,8 @@
 public class PQ14 {
     // check if the number is even or not using methods
 
-    public static boolean isEven(int n) {
-        if (n % 2 != 0) {
+    public static boolean isEven(int num) {
+        if (num % 2 != 0) {
             return false;
         }
         return true;
