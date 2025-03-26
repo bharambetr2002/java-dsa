@@ -19,6 +19,7 @@ public class Q169 {
 }
 
 // Bruite Force
+//
 // public class Q169 {
 // public static int count() {
 // int nums[] = { 2, 2, 1, 1, 1, 2, 2 };
