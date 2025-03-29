@@ -2,7 +2,7 @@ package LeetCode;
 
 import java.util.Arrays;
 
-//leetcode solution
+//leetcode solution brute force
 
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
